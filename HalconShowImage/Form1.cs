@@ -18,7 +18,7 @@ namespace HalconShowImage
 
         private void btnShow_Click(object sender, EventArgs e)
         {
-            string imgPath = @"D:\Work\LED\blue.bmp";
+            string imgPath = @"D:\Work\LED\dark.bmp";
             Bitmap src, report;
             bool isPass = HImageClass.DoInspectFromFile(false, out src,
                 out report, imgPath);
